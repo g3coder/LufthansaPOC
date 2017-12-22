@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Lufthansa POC">
+    <parameter name="url" value="https://www.lufthansa.com/online/portal/lh/uk/homepage"/>
+    <parameter name="browser" value="chrome"/>
+    <test name="Flight Booking">
+        <classes>
+            <class name="org.spotqa.airlines.flights.BookingFlightTest"/>
+        </classes>
+    </test>
+</suite>
